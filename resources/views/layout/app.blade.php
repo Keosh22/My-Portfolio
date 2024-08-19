@@ -19,13 +19,13 @@
     <section class="padding">
       Achievements
     </section>
-    <section class="padding">
+    <section class="padding bg-khaki-400">
       Skills/Certificates
     </section>
     <section class="padding">
       Sign up
     </section>
-    <section class="padding">
+    <section class="padding bg-black">
       footer
     </section>
   </main>
