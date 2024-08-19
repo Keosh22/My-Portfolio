@@ -8,6 +8,26 @@
   <title>My Portfolio</title>
 </head>
 <body>
-  <h3 class="text-4xl font-bold">Hello World</h3>
+  <main class="relative">
+    @include("section.nav")
+    <section class="sm:pl-16 pl-8 sm:pr-16 pr-8 sm:pb-24 pb-12" >
+      Hero
+    </section>
+    <section class="padding">
+      About Me
+    </section>
+    <section class="padding">
+      Achievements
+    </section>
+    <section class="padding">
+      Skills/Certificates
+    </section>
+    <section class="padding">
+      Sign up
+    </section>
+    <section class="padding">
+      footer
+    </section>
+  </main>
 </body>
 </html>
