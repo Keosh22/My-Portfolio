@@ -35,7 +35,24 @@ export default {
         200: "#F5EDE0",
         300: "#EEE0CB",
       },
-    }},
+      "columbia": {
+        950: "#659ECD",
+        900: "#74A8D2",
+        800: "#84B2D7",
+        700: "#93BBDC",
+        600: "#A3C5E1",
+        500: "#B2CDE6",
+        400: "#C1D7EB",
+        300: "#D1E1F0",
+        200: "#E0EBF5",
+        100: "#F0F5FA",
+      }
+    },
+    fontFamily: {
+      poppins: ["Poppins", "sans-serif"],
+      lora: ["Lora", "sans-serif"],
+    }
+  },
   
   },
   plugins: [],

@@ -16,7 +16,7 @@
 
 @layer base{
   body{
-    background: #EEE0CB;
+    @apply bg-champagne-200
   }
 }
 
