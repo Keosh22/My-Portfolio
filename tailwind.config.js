@@ -29,6 +29,8 @@ export default {
         600: "#CEC1B6",
         700: "#C6B7A9",
         800: "#BAA898",
+        900: "#AD9885",
+        950: "#9D836C"
       },
       "champagne": {
         100: "#FAF6F0",
@@ -53,6 +55,9 @@ export default {
       lora: ["Lora", "sans-serif"],
     }
   },
+    backgroundImage: {
+      "hero": "url(/public/images/image-background.jpg)"
+    }
   
   },
   plugins: [],
