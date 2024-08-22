@@ -14,7 +14,7 @@
       @include("section.hero")
     </section>
     <section class="padding">
-      About Me
+      @include("section.skills")
     </section>
     <section class="padding">
       Achievements
