@@ -16,10 +16,10 @@
     <section class="padding">
       @include("section.skills")
     </section>
-    <section class="padding">
-      Achievements
+    <section class="padding  bg-khaki-400">
+      @include("section.badge")
     </section>
-    <section class="padding bg-khaki-400">
+    <section class="padding">
       Skills/Certificates
     </section>
     <section class="padding">
