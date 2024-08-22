@@ -1,6 +1,6 @@
 <section class="flex flex-col xl:flex-row w-full min-h-screen max-container gap-10 justify-center">
     {{-- Left section --}}
-    <div class="relative flex flex-col justify-center items-start pt-28 xl:w-2/5  ">
+    <div class="relative flex flex-col justify-center items-start pt-10 xl:w-2/5  ">
         <p class="font-lora text-2xl max-sm:text-xl font-bold leading-normal">Hi I, Am</p>
         <h3 class="font-lora text-4xl max-sm:text-2xl font-bold leading-normal mt-2">Ken Joshua R. Buenavides</h3>
         <h1 class="relative font-poppins text-8xl font-bold leading-normal max-md:text-[72px] max-lg:leading-[110px] max-md:leading-[80px] max-sm:text-[52px] max-sm:leading-[65px] ">Laravel 
