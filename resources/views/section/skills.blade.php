@@ -25,7 +25,7 @@
                 <img class="w-[250px] h-[180px] object-contain rounded-s-2xl shadow-2xl "
                     src={{ asset('images/advance-cloud_page-0001.jpg') }} alt="certificate">
             </div>
-            <p class="font-poppins text-lg font-semibold leading-normal pt-5">DICT - Advance Cloud Computing</p>
+            <p class="font-poppins text-lg font-semibold leading-normal pt-5">DICT - Advanced Cloud Computing</p>
         </div>
 
         <div class="flex flex-col justify-center items-center">
@@ -43,7 +43,7 @@
                 <img class="w-[250px] h-[180px] object-contain rounded-s-2xl shadow-2xl "
                     src={{ asset('images/java.jpg') }} alt="certificate">
             </div>
-            <p class="font-poppins text-lg font-semibold leading-normal pt-5">Basic Cloud Computing</p>
+            <p class="font-poppins text-lg font-semibold leading-normal pt-5">Java Programming NCIII</p>
         </div>
 
         <div class="flex flex-col justify-center items-center">
@@ -52,7 +52,7 @@
               <img class="w-[250px] h-[180px] object-contain rounded-s-2xl shadow-2xl "
                   src={{ asset('images/civil-service.jpg') }} alt="certificate">
           </div>
-          <p class="font-poppins text-lg font-semibold leading-normal pt-5">Civil Service Professional</p>
+          <p class="font-poppins text-lg font-semibold leading-normal pt-5">Civil Service Professional Passer</p>
       </div>
 
       <div class="flex flex-col justify-center items-center">
