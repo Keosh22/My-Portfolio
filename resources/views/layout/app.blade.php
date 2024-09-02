@@ -14,13 +14,13 @@
       @include("section.hero")
     </section>
     <section class="padding">
-      @include("section.skills")
+      @include("section.certificates")
     </section>
     <section class="padding  bg-khaki-400">
       @include("section.badge")
     </section>
     <section class="padding">
-      Skills/Certificates
+     
     </section>
     <section class="padding">
       Sign up
