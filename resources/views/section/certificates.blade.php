@@ -12,8 +12,8 @@
 
         <div class="flex flex-col justify-center items-center">
             <div
-                class="h-[275px] w-[380px]  bg-hero bg-cover bg-center flex justify-center items-center rounded-2xl shadow-xl">
-                <img class="w-[250px] h-[180px] object-contain rounded-s-2xl shadow-2xl"
+                class="bg-hero bg-cover bg-center flex justify-center items-center rounded-2xl shadow-xl">
+                <img class="w-[350px] h-[250px] object-contain rounded-s-2xl shadow-2xl px-5 py-10"
                     src={{ asset('images/basic-level-cloud.jpg') }} alt="certificate">
             </div>
             <p class="font-poppins text-lg font-semibold leading-normal pt-5">DICT - Basic Cloud Computing</p>
@@ -21,8 +21,8 @@
 
         <div class="flex flex-col justify-center items-center">
             <div
-                class="h-[275px] w-[380px] bg-hero bg-cover bg-center flex justify-center items-center rounded-2xl shadow-xl">
-                <img class="w-[250px] h-[180px] object-contain rounded-s-2xl shadow-2xl "
+                class=" bg-hero bg-cover bg-center flex justify-center items-center rounded-2xl shadow-xl">
+                <img class="w-[350px] h-[250px] object-contain rounded-s-2xl shadow-2xl px-5 py-10"
                     src={{ asset('images/advance-cloud_page-0001.jpg') }} alt="certificate">
             </div>
             <p class="font-poppins text-lg font-semibold leading-normal pt-5">DICT - Advanced Cloud Computing</p>
@@ -30,8 +30,8 @@
 
         <div class="flex flex-col justify-center items-center">
             <div
-                class="h-[275px] w-[380px] bg-hero bg-cover bg-center flex justify-center items-center rounded-2xl shadow-xl">
-                <img class="w-[250px] h-[180px] object-contain rounded-s-2xl shadow-2xl "
+                class="bg-hero bg-cover bg-center flex justify-center items-center rounded-2xl shadow-xl">
+                <img class="w-[350px] h-[250px] object-contain rounded-s-2xl shadow-2xl px-5 py-10"
                     src={{ asset('images/intemediate-cloud_page-0001.jpg') }} alt="certificate">
             </div>
             <p class="font-poppins text-lg font-semibold leading-normal pt-5">DICT - Intermediate Cloud Computing</p>
@@ -39,8 +39,8 @@
 
         <div class="flex flex-col justify-center items-center">
             <div
-                class="h-[275px] w-[380px] bg-hero bg-cover bg-center flex justify-center items-center rounded-2xl shadow-xl">
-                <img class="w-[250px] h-[180px] object-contain rounded-s-2xl shadow-2xl "
+                class="bg-hero bg-cover bg-center flex justify-center items-center rounded-2xl shadow-xl">
+                <img class="w-[350px] h-[250px] object-contain rounded-s-2xl shadow-2xl px-5 py-10"
                     src={{ asset('images/java.jpg') }} alt="certificate">
             </div>
             <p class="font-poppins text-lg font-semibold leading-normal pt-5">Java Programming NCIII</p>
@@ -48,8 +48,8 @@
 
         <div class="flex flex-col justify-center items-center">
           <div
-              class="h-[275px] w-[380px] bg-hero bg-cover bg-center flex justify-center items-center rounded-2xl shadow-xl">
-              <img class="w-[250px] h-[180px] object-contain rounded-s-2xl shadow-2xl "
+              class="bg-hero bg-cover bg-center flex justify-center items-center rounded-2xl shadow-xl">
+              <img class="w-[350px] h-[250px] object-contain rounded-s-2xl shadow-2xl px-5 py-10"
                   src={{ asset('images/civil-service.jpg') }} alt="certificate">
           </div>
           <p class="font-poppins text-lg font-semibold leading-normal pt-5">Civil Service Professional Passer</p>
@@ -57,8 +57,8 @@
 
       <div class="flex flex-col justify-center items-center">
         <div
-            class="h-[275px] w-[380px] bg-hero bg-cover bg-center flex justify-center items-center rounded-2xl shadow-xl">
-            <img class="w-[250px] h-[180px] object-contain rounded-s-2xl shadow-2xl "
+            class="bg-hero bg-cover bg-center flex justify-center items-center rounded-2xl shadow-xl">
+            <img class="w-[350px] h-[250px] object-contain rounded-s-2xl shadow-2xl px-5 py-10"
                 src={{ asset('images/it-olympics.png') }} alt="certificate">
         </div>
         <p class="font-poppins text-lg font-semibold leading-normal pt-5">12th IT Olympics</p>
