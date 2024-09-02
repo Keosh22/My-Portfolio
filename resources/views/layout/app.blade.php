@@ -20,7 +20,7 @@
       @include("section.badge")
     </section>
     <section class="padding">
-     
+     @includeIf("section.skills")
     </section>
     <section class="padding">
       Sign up
