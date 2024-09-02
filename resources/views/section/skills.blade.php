@@ -1,4 +1,4 @@
-<section class="max-container w-full flex lg:flex-row flex-col gap-12 justify-around items-center">
+<section class="max-container w-full flex lg:flex-row flex-col gap-12 justify-around items-center my-10">
   <div class="relative flex justify-center items-center">
     <img class="h-28 absolute bottom-0 left-0 opacity-60 -z-10" src="{{asset("images/dots.png")}}" alt="dots">
     <img class="h-28 absolute top-0 right-0 opacity-60 -z-10" src="{{asset("images/dots.png")}}" alt="dots">
