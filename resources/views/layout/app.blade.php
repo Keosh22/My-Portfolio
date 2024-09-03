@@ -22,8 +22,8 @@
     <section class="padding">
      @includeIf("section.skills")
     </section>
-    <section class="padding">
-      Sign up
+    <section class="padding  bg-khaki-400">
+      @include("section.my-work")
     </section>
     <section class="padding bg-black">
       footer
