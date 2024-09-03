@@ -23,7 +23,7 @@
      @includeIf("section.skills")
     </section>
     <section class="padding  bg-khaki-400">
-      @include("section.my-work")
+      @include("section.my-projects")
     </section>
     <section class="padding bg-black">
       footer
