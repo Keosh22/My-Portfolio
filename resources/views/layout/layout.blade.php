@@ -9,8 +9,15 @@
 </head>
 <body>
   <main class="relative">
+    {{-- Navbar --}}
+    <x-nav></x-nav>
+
+    {{ $slot }}
     
-    @include("section.nav")
+
+
+
+    {{-- @include("section.nav")
     <section class="sm:pl-16 pl-8 sm:pr-16 pr-8 sm:pb-24 pb-12" >
       @include("section.hero")
     </section>
@@ -28,7 +35,7 @@
     </section>
     <section class="padding bg-black">
       @include("section.footer")
-    </section>
+    </section> --}}
   </main>
 </body>
 </html>
