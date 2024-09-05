@@ -26,7 +26,7 @@
       @include("section.my-projects")
     </section>
     <section class="padding bg-black">
-      footer
+      @include("section.footer")
     </section>
   </main>
 </body>
