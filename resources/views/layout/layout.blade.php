@@ -9,6 +9,7 @@
 </head>
 <body>
   <main class="relative">
+    
     @include("section.nav")
     <section class="sm:pl-16 pl-8 sm:pr-16 pr-8 sm:pb-24 pb-12" >
       @include("section.hero")
