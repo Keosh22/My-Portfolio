@@ -8,12 +8,13 @@ use Illuminate\View\Component;
 
 class Skills extends Component
 {
+    public $icons;
     /**
      * Create a new component instance.
      */
-    public function __construct()
+    public function __construct($icons)
     {
-        //
+        $this->icons = $icons;
     }
 
     /**

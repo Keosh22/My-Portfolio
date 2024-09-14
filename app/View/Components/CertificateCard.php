@@ -1,21 +1,22 @@
 <?php
 
-namespace App\View\Components\Sections;
+namespace App\View\Components;
 
 use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class Certificates extends Component
+class CertificateCard extends Component
 {
-
-   public $certificates; 
+    public $image;
+    public $title;
     /**
      * Create a new component instance.
      */
-    public function __construct($certificates)
+    public function __construct($image, $title)
     {
-       $this->certificates = $certificates;
+        $this->image  = $image;
+        $this->title = $title; 
     }
 
     /**
@@ -23,6 +24,6 @@ class Certificates extends Component
      */
     public function render(): View|Closure|string
     {
-     return view("section.certificates");
+        return view('components.certificate-card');
     }
 }
