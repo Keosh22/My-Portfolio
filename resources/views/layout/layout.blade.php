@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   @vite('resources/css/app.css')
-  <title>My Portfolio</title>
+  <title>@yield('title', 'Laravel')</title>
 </head>
 <body>
   <main class="relative">

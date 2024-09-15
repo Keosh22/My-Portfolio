@@ -1,3 +1,4 @@
+@section("title", "Keosh's Portfolio")
 <x-layout>
     {{-- HERO SECTION --}}
     <section class="sm:pl-16 pl-8 sm:pr-16 pr-8 sm:pb-24 pb-12">
