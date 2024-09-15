@@ -24,6 +24,7 @@
             <x-sections.skills :icons="$icons" />
         </section>
     </section>
+    {{-- PROJECTS SECTION --}}
     <section class="padding  bg-khaki-400">
         <x-sections.my-projects />
     </section>
