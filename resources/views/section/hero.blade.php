@@ -13,12 +13,7 @@
             elit. Nostrum, in mollitia voluptatum reiciendis doloribus expedita fugiat explicabo nisi voluptate dolorem.
         </p>
         <div class="flex justify-center items-start mt-10">
-            {{-- <button
-                class="flex justify-center items-center bg-black text-champagne-200 font-poppins text-md leading-normal py-3 px-6 rounded-full shadow-md hover:bg-columbia-950 transition ease-out delay-150">Download
-                Cv</button> --}}
-            <x-button>
-                Download Cv
-            </x-button>
+            <x-button name="Download Cv" />
         </div>
     </div>
 
