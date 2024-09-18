@@ -28,7 +28,8 @@
     <section class="padding  bg-khaki-400">
         <x-sections.my-projects />
     </section>
+    {{-- FOOTER SECTION --}}
     <section class="padding bg-black">
-        <x-sections.footer />
+        <x-sections.footer :linkbtn="$linkbtn" />
     </section>
 </x-layout>

@@ -65,7 +65,38 @@ class PortfolioController extends Controller
             ]
         ];
 
-        return view("app", ["certificates" => $certificates, "icons" => $icons]);
+
+        $linkbtn = [
+            "facebook" => [
+                "image" => "images/facebook_icon.png",
+                "url" => "https://www.facebook.com/Keosh22?mibextid=ZbWKwL",
+                "alt" => "facebook_icon"
+            ],
+            "instagram" => [
+                "image" => "images/instagram_icon.png",
+                "url" => "https://www.instagram.com/keoshhh?igsh=ZXN3eGtpOW9mcTdh",
+                "alt" => "instagram_icon"
+            ],
+            "youtube" => [
+                "image" => "images/youtube_icon.png",
+                "url" => "https://youtube.com/@buenavideskenjoshua8057?si=7Z-RI8scjgjUqAwn",
+                "alt" => "youtube_icon"
+            ],
+            "gmail" => [
+                "image" => "images/gmail_icon.png",
+                "url" => "#",
+                "alt" => "gmail_icon"
+            ],
+            "indeed" => [
+                "image" => "images/indeed_icon.png",
+                "url" => "https://profile.indeed.com/p/kenjoshuab-jdkrnrb",
+                "alt" => "indeed_logo"
+            ]
+        ];
+
+
+
+        return view("app", ["certificates" => $certificates, "icons" => $icons, "linkbtn" => $linkbtn]);
     }
 
   

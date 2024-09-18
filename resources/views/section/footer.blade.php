@@ -1,11 +1,11 @@
 <section class="max-container flex flex-col justify-center items-center">
   <h1 class="text-champagne-200 font-poppins text-4xl font-bold leading-normal mb-5 ">Let's Connect</h1>
   <div class="flex justify-around items-center gap-5 mb-7">
-    <a href="#"><img class="h-12 w-12" src="{{asset("images/facebook_icon.png")}}" alt="facebook_logo"></a>
-    <a href="#" clas><img class="h-12 w-12 " src="{{asset("images/instagram_icon.png")}}" alt="instagram_logo"></a>
-    <a href="#" clas><img class="h-12 w-12 " src="{{asset("images/youtube_icon.png")}}" alt="youtube_logo"></a>
-    <a href="#" clas><img class="h-12 w-12 " src="{{asset("images/gmail_icon.png")}}" alt="gmail_logo"></a>
-    <a href="#" clas><img class="h-12 w-12 " src="{{asset("images/indeed_icon.png")}}" alt="indeed_logo"></a>
+     @foreach ( $linkbtn as $link => $item )
+       <a href="{{ $item['url'] }}" target="_blank">
+        <x-icon :image="$item['image']" :alt="$item['alt']" />
+       </a>
+     @endforeach
   </div>
 
   
